@@ -1,0 +1,16 @@
+.section > div:nth-child(1) {
+    position: relative;
+    z-index: 2;
+}
+
+.charItem {
+    display: flex;
+    align-items: center;
+}
+
+.charPhoto {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    margin-right: 8px;
+}
